@@ -1,0 +1,13 @@
+package com.example.hi;
+
+public class Lesson01 {
+
+	public static void main(String[] args) {
+		//21-01-03
+		
+		System.out.print("안녕");
+		System.out.println("반갑다");
+		System.out.println("반갑다" + 321);
+	}
+
+}

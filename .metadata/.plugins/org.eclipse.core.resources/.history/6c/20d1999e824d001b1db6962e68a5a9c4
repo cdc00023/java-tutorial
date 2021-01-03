@@ -1,0 +1,74 @@
+package com.example.hi;
+
+public class P02 {
+
+	public static void main(String[] args) {
+		/* 데이터 타입(Data type)
+		 * 변수의 선언 : 변수명 = 값
+		 * 
+		 * 기본 데이터 타입 data type
+		 *          정수형   문자형   실수형   논리형
+		 * 1byte    byte       -        -      boolean(t/f)
+		 * 2byte    short    char       -        -
+		 * 4byte    int        -      float      -
+		 * 8byte    long       -      double     -
+		 * 
+		 * 참조형 : Class/Interface, String(문자열), Array(배열)
+		 */
+		
+		//<정수형과 실수형>
+		int hello; //정수형 int인 hello선언
+		hello = 11; //hello의 값을 11로 초기화
+		System.out.println("hello = " + hello);		
+		
+		hello = 22;
+		System.out.println("hello = " + hello);
+		System.out.println("hello + hello = " + (hello + hello));
+		
+		int world = 100; //정수형 int인 world를 선언하는 동시에 100으로 초기화
+		System.out.println("world = " + world);
+		
+		float how = 0.123f; //실수형 float 선언, 뒤에 f를붙인다
+		System.out.println("how = " + how);
+		
+		double areYou = 0.123123d; //실수형 double 선언, 뒤에 d를붙인다
+								   //float형보다 범위가 넒음
+		System.out.println("areYou = " + areYou);
+		
+		
+		//<문자형>
+		//ASCII 코드 이용, UNICODE 이용, 문자 상수 직접대입
+		char one; //문자형 char인 one변수선언
+		one = 97; //char에 숫자를 쓰면 아스키코드값 출력
+		System.out.println("one = " + one);
+		
+		one = 'b'; //char형에 문자출력하려면 '문자'
+		System.out.println("one = " + one);
+		
+		one = '\u0063'; //유니코드 값 넣음
+		System.out.println("one = " + one);
+		
+		System.out.print("여기가 첫째 줄");
+		System.out.print("이다.\n");
+		
+		System.out.println("여기는 둘째 줄임.");
+		
+		System.out.print("포도\t사과\t바나나\n");
+		System.out.println("----------------------");
+		System.out.println("4달러\t4달러\t4달러");
+		
+		
+		char oneTwo = 'f'; //char변수 선언과 동시 'd'초기화
+		System.out.println("oneTwo = " + oneTwo);
+		
+		System.out.println("oneTwo + 1 = " + (oneTwo + 1));
+		//'f'는 아스키 코드가 102임으로 +1 계산되어 103 출력
+		
+		char oneTwo = 'f' + 1;
+		System.out.println("oneTwo + 1" + oneTwo);
+		
+		
+		
+	}//end of main
+
+}//end of class

@@ -1,0 +1,38 @@
+package com.example.hi;
+
+public class P02 {
+
+	public static void main(String[] args) {
+		/* 데이터 타입(Data type)
+		 * 변수의 선언 : 변수명 = 값
+		 * 
+		 * 기본 데이터 타입 data type
+		 *          정수형   문자형   실수형   논리형
+		 * 1byte    byte       -        -      boolean(t/f)
+		 * 2byte    short    char       -        -
+		 * 4byte    int        -      float      -
+		 * 8byte    long       -      double     -
+		 * 
+		 * 참조형 : Class/Interface, String(문자열), Array(배열)
+		 */
+		
+		int hello; //정수형 int인 hello선언
+		hello = 11; //hello의 값을 11로 초기화
+		System.out.println("hello = " + hello);		
+		
+		hello = 22;
+		System.out.println("hello = " + hello);
+		System.out.println("hello + hello = " + (hello + hello));
+		
+		int world = 100; //정수형 int인 world를 선언하는 동시에 100으로 초기화
+		System.out.println("world = " + world);
+		
+		float how = 0.123333333333333f; //실수형 float 선언, 뒤에 f를붙인다
+		System.out.println("how = " + how);
+		
+		double are = 
+		
+		
+	}//end of main
+
+}//end of class
