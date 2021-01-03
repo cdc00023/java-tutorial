@@ -57,7 +57,7 @@ public class P02 {
 		System.out.println("----------------------");
 		System.out.println("4달러\t4달러\t4달러");
 		
-		ㅇㅇ
+		
 		char oneTwo = 'f'; //char변수 선언과 동시 'd'초기화
 		System.out.println("oneTwo = " + oneTwo);
 		

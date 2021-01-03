@@ -23,13 +23,16 @@ public class Lesson02_Type {
 		
 		char ch1 = 'A';
 	    //캐릭터 타입은 작은 따옴표
-		char ch2[] = {'K', 'O', 'R'}; // charactre 배열
+		char ch2[] = {'K', 'O', 'R'}; // character 배열
 		String str = "KOREA";
+		
+		System.out.println("ch2 = " + ch2);
 		
 		System.out.printf("%10.5f\n", float1);
 		System.out.printf("%c\n", ch1);
 		System.out.printf("char in numeric format : %d\n", (int)ch1);
 		System.out.printf("%s\n", str);
+		     
 		
 
 	}

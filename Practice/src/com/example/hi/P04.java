@@ -1,10 +1,30 @@
 package com.example.hi;
 
+import java.util.Scanner;
+
 public class P04 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//연산자(Operator)
+		
+		System.out.println("이름, 주소, 나이, 몸무게를 빈칸으로 분리하여 입력해라");
+		
+		//Scanner 사용하려면 맨 위의 import 문이 필요 
+		Scanner s = new Scanner(System.in);
+		//Scanner은 입력되는 키 값을 공백으로 구분되는 아이템 단위로 읽는다
+		
+		String name = s.next(); //다음 입력문을 문자열로
+		String address = s.next(); //다음 입력문을 문자열로
+		int age = s.nextInt(); //다음 입력문을 int로
+		double weight = s.nextDouble(); //다음 입력문을 double
+		
+		System.out.println("==============");
+		System.out.println("너의 이름은 " + name + "인가?");
+		System.out.println("주소는 " + address + "(이)였나?");
+		System.out.println("나이는 " + age + "인것 같군");
+		System.out.println("몸무게는 " + weight + "kg 일려나");
+		
+		
 	}
 
 }

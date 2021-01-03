@@ -1,0 +1,40 @@
+package com.example.hi;
+
+public class P03 {
+
+	public static void main(String[] args) {
+		//over, under flow
+		//오버플로우 : 범위초과 ~가장 작은수로 리카운트
+		//언더플로우 : 범위보다 낮음 ~가장 큰수로 리카운트
+		
+		//byte  범위는 -128 ~ 127 사이의 정수
+		byte num1 = 127;
+		byte num2 = (byte)128; //오버플로우
+		System.out.println("num1 = " +num1);
+		System.out.println("num1 = " +num2);
+		
+		num1 = -128;
+		num2 = (byte)-129; //언더플로우
+		System.out.println("num1 = " + num1);
+		System.out.println("num1 = " + num2);
+		
+        byte b = 100;    // btye형 b 변수 100으로 초기화
+        short s = 1000;    // short형 s 변수 1000으로 초기화
+        int i = 10000;    // int형 i 변수 10000으로 초기화
+        long l = 10L;    // long형 l 변수 10으로 초기화
+        char c = 'A';    // char형 c 변수 'A'로 초기화
+        float f = 3.14f;    // float형 f 변수 3.14로 초기화
+        double db = 5.15d;    // double형 db 변수 5.15로 초기화
+        boolean bo = true ;    // boolean형 bo 변수 true로 초기화
+        
+        f = (float)1.5;    // 또는 f = 1.5f
+        System .out.println("f = " + f);
+        
+        f = (float)db;    // double값을 float형으로 
+        System .out.println("f = " + f);
+        
+        db = (double)l; //float값을 double형으로
+        System.out.println("db = " + db);
+	}
+
+}

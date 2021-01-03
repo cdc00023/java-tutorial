@@ -1,0 +1,23 @@
+package com.example.hi;
+
+public class P03 {
+
+	public static void main(String[] args) {
+		//over, under flow
+		//오버플로우 : 범위초과 ~가장 작은수로
+		//언더플로우 : 범위보다 낮음 ~가장 큰수로
+		
+		//byte  범위는 -128 ~ 127 사이의 정수
+		byte num1 = 127;
+		byte num2 = (byte)128; //오버플로우
+		System.out.println("num1 = " +num1);
+		System.out.println("num1 = " +num2);
+		
+		num1 = -128;
+		num2 = (byte)-139; //언더플로우
+		System.out.println("num1 = " + num1);
+		System.out.println("num1 = " + num2);
+		
+	}
+
+}
