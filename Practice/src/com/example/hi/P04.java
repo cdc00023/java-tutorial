@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class P04 {
 
 	public static void main(String[] args) {
-		//연산자(Operator)
+		//연산자1 (Operator)
 		
 		System.out.println("이름, 주소, 나이, 몸무게를 빈칸으로 분리하여 입력해라");
 		
